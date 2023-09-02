@@ -12,6 +12,9 @@ body {
     height: 2561px;
     margin-top: 4rem;
     margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .card {
@@ -29,4 +32,18 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 18px;
+}
+
+.card-project {
+    background-color: white;
+    width: 859px;
+    height: 320px;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 23px;
+}
+
+.card-body h3 {
+    font-family: 'Montserrat', sans-serif;
 }
