@@ -77,3 +77,36 @@ body {
     font-weight: 500;
     color: #828282;
 }
+
+.goto {
+    display: flex;
+    flex-direction: row;
+    gap: 11.1px;
+}
+
+.goto button {
+    padding: 13px 40.38px 13px;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    background-color: #2F80ED;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.goto button:nth-child(2) {
+    background-color: white;
+    color: #2F80ED;
+    border: 1px solid #2F80ED;
+}
+
+.goto button:hover {
+    background-color: cadetblue;
+}
+
+.goto button:nth-child(2):hover {
+    background-color: aquamarine;
+    color: black;
+    border: none;
+}
