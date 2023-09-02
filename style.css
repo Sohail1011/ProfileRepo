@@ -40,10 +40,40 @@ body {
     height: 320px;
     border-radius: 12px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 23px;
+    grid-template-columns: repeat(2, 43%);
+    padding: 23px 20.19px 23px 18.7px;
+}
+
+.card-image img {
+    height: 274px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 9.08px;
+}
+
+.links span {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #4F4F4F;
 }
 
 .card-body h3 {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.card-body p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #828282;
 }
