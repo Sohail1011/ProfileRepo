@@ -321,6 +321,7 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 25px;
+    gap: 1rem;
 }
 
 .frames h2 {
@@ -339,4 +340,27 @@ body {
     width: 362px;
     justify-content: center;
     padding: 25px;
+}
+
+.progresion {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 0.5rem;
+}
+
+.progresion label {
+    color: #4F4F4F;
+}
+
+.progresion progress {
+    width: 12rem;
+}
+
+.latest {
+    margin-top: 1rem;
+}
+
+.latest {
+    display: grid;
+    grid-template-columns: 38% 40%;
 }
