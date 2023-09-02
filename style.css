@@ -108,5 +108,5 @@ body {
 .goto button:nth-child(2):hover {
     background-color: aquamarine;
     color: black;
-    border: none;
+    border: 1px solid black;
 }
